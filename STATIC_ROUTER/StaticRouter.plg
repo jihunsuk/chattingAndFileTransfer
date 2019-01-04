@@ -1,0 +1,84 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: StaticRouter - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\WINDOWS\TEMP\RSPC3.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /D "HAVE_REMOTE" /D "WPCAP" /FR"Debug/" /Fp"Debug/StaticRouter.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\My Document\MyProjects\StaticRouter\AddProxyARPDlg.cpp"
+"D:\My Document\MyProjects\StaticRouter\AddRoutingTableDlg.cpp"
+"D:\My Document\MyProjects\StaticRouter\ARPmodule.cpp"
+"D:\My Document\MyProjects\StaticRouter\BaseLayer.cpp"
+"D:\My Document\MyProjects\StaticRouter\EthernetLayer.cpp"
+"D:\My Document\MyProjects\StaticRouter\IPLayer.cpp"
+"D:\My Document\MyProjects\StaticRouter\LayerManager.cpp"
+"D:\My Document\MyProjects\StaticRouter\NILayer.cpp"
+"D:\My Document\MyProjects\StaticRouter\StaticRouter.cpp"
+"D:\My Document\MyProjects\StaticRouter\StaticRouterDlg.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSPC3.tmp" 
+Creating temporary file "C:\WINDOWS\TEMP\RSPC4.tmp" with contents
+[
+"wpcap.lib" "packet.lib" "ws2_32.lib" /nologo /subsystem:windows /incremental:yes /pdb:"Debug/StaticRouter.pdb" /debug /machine:I386 /out:"Debug/StaticRouter.exe" /pdbtype:sept 
+".\Debug\AddProxyARPDlg.obj"
+".\Debug\AddRoutingTableDlg.obj"
+".\Debug\ARPCache.obj"
+".\Debug\ARPmodule.obj"
+".\Debug\BaseLayer.obj"
+".\Debug\EthernetLayer.obj"
+".\Debug\IPLayer.obj"
+".\Debug\LayerManager.obj"
+".\Debug\NILayer.obj"
+".\Debug\RoutingTable.obj"
+".\Debug\StaticRouter.obj"
+".\Debug\StaticRouterDlg.obj"
+".\Debug\StdAfx.obj"
+".\Debug\StaticRouter.res"
+]
+Creating command line "link.exe @C:\WINDOWS\TEMP\RSPC4.tmp"
+<h3>Output Window</h3>
+Compiling...
+AddRoutingTableDlg.cpp
+IPLayer.cpp
+NILayer.cpp
+Generating Code...
+Skipping... (no relevant changes detected)
+AddProxyARPDlg.cpp
+ARPmodule.cpp
+BaseLayer.cpp
+EthernetLayer.cpp
+LayerManager.cpp
+StaticRouter.cpp
+StaticRouterDlg.cpp
+Linking...
+Creating temporary file "C:\WINDOWS\TEMP\RSPC5.tmp" with contents
+[
+/nologo /o"Debug/StaticRouter.bsc" 
+".\Debug\StdAfx.sbr"
+".\Debug\AddProxyARPDlg.sbr"
+".\Debug\AddRoutingTableDlg.sbr"
+".\Debug\ARPCache.sbr"
+".\Debug\ARPmodule.sbr"
+".\Debug\BaseLayer.sbr"
+".\Debug\EthernetLayer.sbr"
+".\Debug\IPLayer.sbr"
+".\Debug\LayerManager.sbr"
+".\Debug\NILayer.sbr"
+".\Debug\RoutingTable.sbr"
+".\Debug\StaticRouter.sbr"
+".\Debug\StaticRouterDlg.sbr"]
+Creating command line "bscmake.exe @C:\WINDOWS\TEMP\RSPC5.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+StaticRouter.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
